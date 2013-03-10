@@ -3,3 +3,17 @@ Turn your Android device into a fully functional Google TV remote! Use the mouse
 The Google TV Android Remote is available to install on your Android device on the Android Market, and its source code can be browsed or downloaded by clicking the Source tab above.
 
 The Google TV Android Remote uses the Google TV Pairing Protocol (source code) and the Anymote Protocol (source code).
+
+
+
+NOTE:
+1. Google TV Pairing Protocol
+http://code.google.com/tv/remote/docs/pairing.html
+(source code)
+http://code.google.com/p/google-tv-pairing-protocol/
+
+
+2. Anymote Protocol
+http://code.google.com/tv/remote/docs/index.html
+(source code)
+http://code.google.com/p/anymote-protocol/
