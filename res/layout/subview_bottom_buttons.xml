@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.tvremote"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:stretchColumns="*"
+  android:shrinkColumns="*">
+
+  <TableRow
+    android:layout_height="fill_parent">
+    <!-- Search -->
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:id="@+id/button_search"
+      android:layout_span="1"
+      android:src="@drawable/icon_25_selector"
+      android:background="@drawable/background_25_selector" />
+    <!-- Keyboard -->
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_span="1"
+      android:id="@+id/button_keyboard"
+      android:src="@drawable/icon_26_selector"
+      android:background="@drawable/background_26_selector" />
+    <!-- Voice search -->
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_span="1"
+      android:id="@+id/button_voice"
+      android:src="@drawable/icon_27_selector"
+      android:background="@drawable/background_27_selector" />
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_span="1"
+      android:id="@+id/button_shortcuts"
+      android:src="@drawable/icon_28_selector"
+      android:background="@drawable/background_28_selector" />
+  </TableRow>
+</TableLayout>

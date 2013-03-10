@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="true" android:drawable="@drawable/icons_touched_04_buttons" /> <!-- pressed -->
+  <item android:state_focused="true" android:drawable="@drawable/icons_04_buttons" /> <!-- focused -->
+  <item android:drawable="@drawable/icons_04_buttons" /> <!-- default -->
+</selector>

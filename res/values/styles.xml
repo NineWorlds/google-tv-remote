@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Icon">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:scaleType">center</item>
+    <item name="android:background">@android:color/transparent</item>
+  </style>
+
+  <style name="TouchpadIcon">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:scaleType">center</item>
+  </style>
+
+  <!-- Style for the buttons on the end of the zoom bar -->
+  <style name="ZoomButton">
+      <item name="android:layout_width">62dp</item>
+      <item name="android:layout_height">62dp</item>
+      <item name="android:layout_centerHorizontal">true</item>
+      <item name="android:background">@android:color/transparent</item>
+  </style>
+
+</resources>

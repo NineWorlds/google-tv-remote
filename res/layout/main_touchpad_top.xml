@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.tvremote"
+  android:id="@+id/MainScreen"
+  android:keepScreenOn="true"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <com.google.android.apps.tvremote.layout.FixedLayout
+    android:id="@+id/vertical_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true">
+
+    <com.google.android.apps.tvremote.layout.SlidingLayout
+      android:id="@+id/slider"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" />
+    <include layout="@layout/subview_main_buttons" app:layout_percent="37.5" />
+    <include layout="@layout/subview_bottom_buttons" app:layout_percent="12.5" />
+
+  </com.google.android.apps.tvremote.layout.FixedLayout>
+
+  <com.google.android.apps.tvremote.layout.FixedLayout
+    android:id="@+id/vertical_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true">
+
+    <TableLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:stretchColumns="*"
+      android:shrinkColumns="*">
+      <TableRow>
+        <ImageView
+          android:layout_height="fill_parent"
+          android:background="@drawable/empty" />
+        <ImageView
+          android:layout_height="fill_parent"
+          android:background="@drawable/empty" />
+        <ImageView
+          android:layout_height="fill_parent"
+          android:background="@drawable/empty" />
+        <com.google.android.apps.tvremote.widget.KeyCodeButton
+          android:id="@+id/button_next_page"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentRight="true"
+          android:src="@drawable/icon_04_buttons_selector"
+          android:layout_height="fill_parent"
+          android:background="@drawable/background_04_selector" />
+      </TableRow>
+    </TableLayout>
+
+    <View 
+      app:layout_percent="87.5" />
+  </com.google.android.apps.tvremote.layout.FixedLayout>
+
+  <com.google.android.apps.tvremote.widget.HighlightView
+    android:id="@+id/HighlightView"
+    app:button="@drawable/button_highlight"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true" />
+
+  <com.google.android.apps.tvremote.layout.FixedLayout
+    android:id="@+id/ReversedLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true">
+
+    <View
+      android:background="@android:color/transparent" />
+
+    <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      app:layout_percent="75">
+      <com.google.android.apps.tvremote.widget.SoftDpad
+        app:radius_percent_ignore_touch="80"
+        app:radius_percent="70"
+        app:radius_percent_ok="8"
+        android:background="@android:color/transparent"
+        android:id="@+id/SoftDpad"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/dpad_selector"
+        android:padding="16dp"
+        android:focusable="false" />
+    </RelativeLayout>
+
+  </com.google.android.apps.tvremote.layout.FixedLayout>
+</RelativeLayout>

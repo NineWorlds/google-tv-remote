@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="RemoteButton">
+        <attr name="key_code" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FixedLayout">
+        <attr name="layout_percent" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="HighlightView">
+        <attr name="button" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SoftDpad">
+        <attr name="radius_percent" format="float"/>
+        <attr name="radius_percent_ok" format="float"/>
+        <attr name="radius_percent_ignore_touch" format="float"/>
+    </declare-styleable>
+</resources>

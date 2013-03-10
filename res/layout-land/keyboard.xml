@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keyboard activity when in landscape mode -->
+<RelativeLayout android:id="@+id/keyboard_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <com.google.android.apps.tvremote.widget.ImeInterceptView android:id="@+id/keyboard"
+      android:background="@drawable/touchpad"
+      android:focusable="true"
+      android:focusableInTouchMode="true"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"/>
+
+  <ImageView
+      android:id="@+id/touch_pad_arrow"
+      android:layout_centerInParent="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:src="@drawable/touchpad_icon"/>
+
+  <com.google.android.apps.tvremote.widget.FadingTextView
+      android:id="@+id/text_feedback_chars"
+      android:background="@android:color/transparent"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:lines="1"
+      android:focusable="false"
+      android:focusableInTouchMode="false"
+      android:singleLine="true"
+      android:scrollHorizontally="false"
+      android:ellipsize="start"
+      android:padding="20dp"
+      android:textSize="40dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Google TV Remote</string>
+  <string name="unkown_tgt_name">Unknown</string>
+  <string name="unkown_tgt_addr">unknown address</string>
+  <string name="ok_text">OK</string>
+
+  <!-- Manifest labels -->
+  <string name="core_service_label">Google TV Remote Control Service</string>
+  <string name="finder_label">Connect to Google TV</string>
+  <string name="config_page_label">Your build is:</string>
+
+  <!--  Main menu -->
+  <string name="menu_switch">Switch box</string>
+  <string name="menu_manual">Enter manual IP</string>
+  <string name="menu_settings">Settings</string>
+  <string name="menu_bazaar_feedback">Send feedback</string>
+  <string name="menu_about">About</string>
+
+  <!-- Settings -->
+  <string name="unknown_build">Unknown</string>
+
+  <!--  Device Finder - more devices -->
+  <string name="finder_searching">Searching for Google TV devices on your network.</string>
+  <string name="finder_searching_with_ssid">Searching for Google TV devices on \"%s\" network.</string>
+  <string name="finder_wifi_waiting">Waiting for WiFi network.</string>
+  <string name="finder_add_other">Add other device</string>
+  <string name="finder_connect">Connect</string>
+  <string name="finder_cancel">Cancel</string>
+  <string name="finder_manual">Add Google TV manually</string>
+  <string name="finder_enable">Enable</string>
+  <string name="finder_configure">Configure</string>
+  <string name="finder_wait">Wait</string>
+  <string name="finder_no_devices">No Google TV devices found</string>
+  <string name="finder_no_devices_with_ssid">No Google TV devices found on \"%s\"</string>
+  <string name="finder_wifi_not_available">WiFi network not available</string>
+  <string name="finder_recently_connected">Recently connected devices</string>
+
+  <!-- Manual IP dialog strings -->
+  <string name="manual_ip_label">Add Google TV</string>
+  <string name="manual_ip_entry_label">IP Address</string>
+  <string name="manual_ip_hint">xxx.xxx.xxx.xxx</string>
+  <string name="manual_ip_message">You can find IP address of your Google TV device by going to:\nSettings &gt; Network &gt; Network Information</string>
+  <string name="manual_ip_error_address">Invalid address.</string>
+  <string name="manual_ip_default_box_name">Unknown box</string>
+  <string name="manual_ip_connect">Connect</string>
+  <string name="manual_ip_cancel">Cancel</string>
+
+  <!-- Shortcut names -->
+  <string name="shortcut_power_on_off">ON/OFF</string>
+  <string name="shortcut_input">Switch input</string>
+  <string name="shortcut_detail_bd">BD</string>
+  <string name="shortcut_detail_tv">TV</string>
+  <string name="shortcut_detail_avr">AV Receiver</string>
+
+  <string name="shortcut_detail_button">button</string>
+  <string name="shortcut_color_red">RED</string>
+  <string name="shortcut_color_green">GREEN</string>
+  <string name="shortcut_color_yellow">YELLOW</string>
+  <string name="shortcut_color_blue">BLUE</string>
+  <string name="shortcut_eject">Eject</string>
+  <string name="shortcut_topmenu">Top Menu</string>
+  <string name="shortcut_menu">Pop Up/Menu</string>
+  <string name="shortcut_settings">Settings</string>
+
+  <!-- Preferences -->
+  <string name="settings_title">Settings</string>
+  <string name="settings_remote_name">Remote name</string>
+  <string name="trackball_speed">Trackball speed</string>
+  <string name="zoom_speed">Zoom reactivity</string>
+  <string name="soft_dpad_speed">Dpad repetition</string>
+
+  <!-- Updates -->
+  <string name="update_available">An update is available. Do you want to download it?</string>
+  <string name="update_available_yes">Download</string>
+  <string name="update_available_no">Cancel</string>
+
+  <!-- Touchpad activity strings -->
+  <string name="error_could_not_send_url">Could not send because this was not a valid URL.</string>
+  <string name="voice_send">Send</string>
+  <string name="voice_search_send">Search</string>
+  <string name="voice_cancel">Cancel</string>
+  <string name="voice_dialog_label">Voice command</string>
+  <string name="sender_missing">Connecting</string>
+
+  <!--  Content Descriptions -->
+  <string name="keyboard_hide_desc">Hide Keyboard</string>
+  <string name="controls_hide_desc">Hide Controls</string>
+  <string name="controls_cancel_desc">Cancel</string>
+  <string name="controls_dvr_desc">D V R</string>
+  <string name="controls_guide_desc">Guide</string>
+  <string name="controls_channel_up_desc">Channel Up</string>
+  <string name="controls_record_desc">Record</string>
+  <string name="controls_pg_up_desc">Page Up</string>
+  <string name="controls_channel_down_desc">Channel Down</string>
+  <string name="controls_stop_desc">Stop</string>
+  <string name="controls_pg_down_desc">Page Down</string>
+  <string name="controls_mute_desc">Mute</string>
+  <string name="controls_volume_down_desc">Volume Down</string>
+  <string name="controls_volume_up_desc">Volume Up</string>
+  <string name="controls_rewind_desc">Rewind</string>
+  <string name="controls_play_pause_desc">Play Pause</string>
+  <string name="controls_fast_forward_desc">Fast Forward</string>
+  <string name="controls_skip_backward_desc">Skip Backward</string>
+  <string name="controls_skip_forward_desc">Skip Forward</string>
+  <string name="shortcuts_hide_desc">Hide Shortcuts</string>
+  <string name="touchpad_scrollbar_desc">Scroll Bar</string>
+  <string name="touchpad_esc_desc">Escape</string>
+  <string name="touchpad_mute_desc">Mute</string>
+  <string name="touchpad_keyboard_desc">Keyboard</string>
+  <string name="touchpad_back_desc">Back</string>
+  <string name="touchpad_home_desc">Home</string>
+  <string name="touchpad_voice_desc">Voice Search</string>
+  <string name="touchpad_search_desc">Search</string>
+  <string name="touchpad_zoom_desc">Zoom</string>
+  <string name="touchpad_tv_desc">TV</string>
+  <string name="touchpad_zoom_bar_desc">Zoom Control Bar</string>
+  <string name="touchpad_zoom_bar_in_desc">Zoom In</string>
+  <string name="touchpad_zoom_bar_out_desc">Zoom In</string>
+  <string name="touchpad_dpad_desc">Directional Pad</string>
+
+  <!-- Pairing -->
+  <string name="pairing_activity_label">Pairing with Google TV</string>
+  <string name="pairing_label">Enter PIN code</string>
+  <string name="pairing_hint">Enter PIN code</string>
+  <string name="pairing_ok">Pair</string>
+  <string name="pairing_request_code">Request code</string>
+  <string name="pairing_cancel">Cancel</string>
+  <string name="pairing_failed_toast">Pairing failed</string>
+  <string name="pairing_succeeded_toast">Pairing succeeded</string>
+  <string name="pairing_waiting">Waiting for pairing code</string>
+
+  <!-- Keyboard messages -->
+  <string name="keyboard_enter">ENTER</string>
+  <string name="keyboard_del">DEL</string>
+
+  <!-- About -->
+  <string name="about_title">Google TV Remote</string>
+  <string name="about_button_tos">Terms of service</string>
+  <string name="about_button_privacy_policy">Privacy policy</string>
+  <string name="about_button_tutorial">Show tutorial</string>
+  <string name="about_version_title">Version: %s</string>
+
+  <!-- Tutorial -->
+  <string name="tutorial_header">Quick Tips</string>
+  <string name="tutorial_header_volume">Volume</string>
+  <string name="tutorial_header_webmode">Pointer Mode</string>
+  <string name="tutorial_header_dpad">Swipe\&apos;n\&apos;Tap</string>
+  <string name="tutorial_desc_volume">Adjust Google TV volume by pressing volume buttons on your phone.</string>
+  <string name="tutorial_desc_webmode">Control the mouse pointer and use gestures to scroll and zoom on webpages.</string>
+  <string name="tutorial_desc_dpad">Navigate Google TV menus and content by swiping and tapping the directional pad.</string>
+  <string name="tutorial_button">Connect to Google TV</string>
+
+  <!-- Links -->
+  <string name="tos_link">http://m.google.com/toscountry</string>
+  <string name="privacy_link">http://m.google.com/static/en/privacy.html</string>
+</resources>

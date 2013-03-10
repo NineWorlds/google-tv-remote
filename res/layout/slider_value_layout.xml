@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Linear layout for a slider preference -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+  <!-- Seek bar that can be dragged -->
+  <SeekBar
+      android:id="@+id/slider_bar"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentBottom="true"
+      android:paddingRight="30sp"
+      />
+  <RelativeLayout
+      android:id="@+id/caption_layout"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/slider_bar"
+      android:layout_marginRight="30dp"
+      >
+    <!-- Caption on the left of the slider -->
+    <TextView
+        android:id="@+id/slider_caption_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="10dp"
+        android:text="Slow"
+        />
+    <!-- Caption on the right of the slider -->
+    <TextView
+        android:id="@+id/slider_caption_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="10dp"
+        android:text="Fast"
+        />
+    <!-- Preference title -->
+    <TextView
+        android:id="@+id/slider_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        />
+  </RelativeLayout>
+</RelativeLayout>
+

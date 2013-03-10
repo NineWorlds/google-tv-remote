@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.tvremote"
+  android:id="@+id/tv_buttons_layout"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:stretchColumns="*"
+  android:shrinkColumns="*">
+
+  <TableRow
+    android:layout_weight="1">
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_DVR"
+      android:src="@drawable/icon_01_selector"
+      android:background="@drawable/background_01_selector" />
+
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_GUIDE"
+      android:src="@drawable/icon_02_selector"
+      android:background="@drawable/background_02_selector" />
+
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_INFO"
+      android:src="@drawable/icon_03_selector"
+      android:background="@drawable/background_03_selector" />
+
+    <ImageView
+      android:layout_height="fill_parent"
+      android:background="@drawable/empty" />
+
+  </TableRow>
+
+  <TableRow
+    android:layout_weight="1">
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_MEDIA_REWIND"
+      android:src="@drawable/icon_05_selector"
+      android:background="@drawable/background_05_selector" />
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_PAUSE"
+      android:src="@drawable/icon_06_selector"
+      android:background="@drawable/background_06_selector" />
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_MEDIA_PLAY"
+      android:src="@drawable/icon_07_selector"
+      android:background="@drawable/background_07_selector" />
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_MEDIA_FAST_FORWARD"
+      android:src="@drawable/icon_08_selector"
+      android:background="@drawable/background_08_selector" />
+  </TableRow>
+
+  <TableRow
+    android:layout_weight="1">
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_PAGE_UP"
+      android:src="@drawable/icon_09_selector"
+      android:background="@drawable/background_09_selector" />
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_CHANNEL_UP"
+      android:src="@drawable/icon_10_selector"
+      android:background="@drawable/background_10_selector" />
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_MEDIA_STOP"
+      android:src="@drawable/icon_11_selector"
+      android:background="@drawable/background_11_selector" />
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_VOLUME_UP"
+      android:src="@drawable/icon_12_selector"
+      android:background="@drawable/background_12_selector" />
+  </TableRow>
+
+  <TableRow
+    android:layout_weight="1">
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_PAGE_DOWN"
+      android:src="@drawable/icon_13_selector"
+      android:background="@drawable/background_13_selector" />
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_CHANNEL_DOWN"
+      android:src="@drawable/icon_14_selector"
+      android:background="@drawable/background_14_selector" />
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_TAB"
+      android:src="@drawable/icon_15_selector"
+      android:background="@drawable/background_15_selector" />
+    <com.google.android.apps.tvremote.widget.KeyCodeButton
+      android:layout_height="fill_parent"
+      app:key_code="KEYCODE_VOLUME_DOWN"
+      android:src="@drawable/icon_16_selector"
+      android:background="@drawable/background_16_selector" />
+  </TableRow>
+
+</TableLayout>

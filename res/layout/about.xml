@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center_horizontal"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip"
+    android:gravity="center">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:editable="false"
+      android:layout_marginRight="10sp"
+      android:textSize="24sp"
+      android:textColor="@color/white"
+      android:text="@string/about_title" />
+    <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/about_logo"/>
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dip"
+    android:gravity="center">
+    <TextView
+      android:id="@+id/version_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:editable="false"
+      android:textSize="18sp"
+      android:textColor="@color/white" />
+  </LinearLayout>
+
+  <Button
+    android:id="@+id/button_tos"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/about_button_tos" />
+  <Button
+    android:id="@+id/button_privacy"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/about_button_privacy_policy" />
+  <Button
+    android:id="@+id/button_tutorial"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/about_button_tutorial" />
+
+</LinearLayout>
